@@ -25,3 +25,5 @@ ca.key
 
 local-ca.crt
 /values_local.yaml
+
+values_secrets/

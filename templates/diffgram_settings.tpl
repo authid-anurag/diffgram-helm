@@ -6,6 +6,7 @@
   IS_DIFFGRAM_S3_V4_SIGNATURE: {{ .Values.diffgramSettings.IS_DIFFGRAM_S3_V4_SIGNATURE }}
   SIGNED_URL_CACHE_MINIMUM_DAYS_VALID: {{ .Values.diffgramSettings.SIGNED_URL_CACHE_MINIMUM_DAYS_VALID }}
   SIGNED_URL_CACHE_NEW_OFFSET_DAYS_VALID: {{ .Values.diffgramSettings.SIGNED_URL_CACHE_NEW_OFFSET_DAYS_VALID }}
+  URL_SIGNED_REFRESH: {{ .Values.diffgramSettings.URL_SIGNED_REFRESH }}
   DIFFGRAM_S3_BUCKET_REGION: {{ .Values.diffgramSettings.DIFFGRAM_S3_BUCKET_REGION }}
   ML__DIFFGRAM_S3_BUCKET_NAME: {{ .Values.diffgramSettings.ML__DIFFGRAM_S3_BUCKET_NAME }}
   GOOGLE_APPLICATION_CREDENTIALS: /etc/gcp/sa_credentials.json # Check the volume in deployment.yaml and service_account_secret.yaml
